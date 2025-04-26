@@ -275,7 +275,7 @@ const ChatInput = ({
         </div>
       </div>
       <div className="text-center text-gray-400 text-xs mt-2">
-        Nexora dapat membuat kesalahan. Periksa info penting.
+        MutiaAI dapat membuat kesalahan. Periksa info penting.
       </div>
     </div>
   );
