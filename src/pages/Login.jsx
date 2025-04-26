@@ -142,7 +142,7 @@ export default function Login() {
               showAnimation ? "animate-fade-in" : ""
             }`}
           >
-            {isMobile ? "Nexora Login" : "Selamat Datang di Nexora"}
+            {isMobile ? "Mutia AI Login" : "Selamat Datang di MutiaAI"}
           </h2>
           <p
             className={`mt-2 text-gray-400 transition-all duration-500 ${
@@ -284,7 +284,7 @@ export default function Login() {
           style={{ animationDelay: "1200ms" }}
         >
           <p className="text-center text-xs text-gray-500">
-            © {new Date().getFullYear()} Nexora. All rights reserved.
+            © {new Date().getFullYear()} MutiaAI. All rights reserved.
           </p>
         </div>
       </div>
