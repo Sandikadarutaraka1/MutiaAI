@@ -249,8 +249,8 @@ export default function Home({ session }) {
           shareChat: async () => {
             try {
               await navigator.share({
-                title: "Nexora AI Chat",
-                text: "Check out my chat with Nexora AI!",
+                title: "Mutia AI Chat",
+                text: "Check out my chat with Mutia AI!",
                 url: window.location.href,
               });
               setToast({ type: "success", message: "Berhasil dibagikan" });
@@ -289,7 +289,7 @@ export default function Home({ session }) {
             </svg>
           </button>
           <h1 className="flex-1 text-center text-lg font-semibold text-white">
-            Nexora AI
+            Mutia AI
           </h1>
           <div className="w-10"></div>
         </div>
